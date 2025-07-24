@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission Livraison</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="./app.js"></script>
+</head>
+<body>
+
+  <h1>Mission Livraison</h1>
+
+  <button id="launch">Lancer la mission</button>
+
+  <div class="stage" id="preparation">
+    <p>Préparation du colis...</p>
+    <progress value="0" max="100"></progress>
+  </div>
+
+  <div class="stage" id="expedition">
+    <p>Expédition en cours...</p>
+    <progress value="0" max="100"></progress>
+  </div>
+
+  <div class="stage" id="livraison">
+    <p>Livraison...</p>
+    <progress value="0" max="100"></progress>
+  </div>
+
+  <p id="resultat"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
